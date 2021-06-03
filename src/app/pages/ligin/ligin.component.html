@@ -1,0 +1,57 @@
+
+
+
+
+          <div class="form">
+            <div class="form-toggle"></div>
+            <div class="form-panel one bbb">
+              <div class="form-header">
+                <h1>Cuiq Login</h1>
+              </div>
+              <div class="form-content">
+                <form [formGroup]='LoginForm' (ngSubmit)='login()'>
+                  <div class="form-group">
+                    <label for="username" ngModel
+                    formControlName='email'>email</label>
+                    <input type="email" id="username" name="email" required="required" ngModel
+                    formControlName='email'/>
+                    <small class="text-danger" *ngIf="LoginForm.controls?.email?.errors?.email">enter valid email </small>
+  <br>
+  <small class="text-danger"  *ngIf="LoginForm.controls?.email?.errors?.minlength &&LoginForm.controls?.email?.touched">email is requred</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required="required"  ngModel
+                    formControlName='password'/>
+                    <small class="text-danger" *ngIf="LoginForm.controls?.password?.invalid &&LoginForm.controls?.password?.errors?.minlength">this eror you must writ 5 charchtars</small>
+
+                  </div>
+                  <div class="form-group">
+                    <label class="form-remember">
+                      <input type="checkbox"/>Remember Me
+                    </label><a class="form-recovery" href="#">Forgot Password?</a>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit">Log In</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

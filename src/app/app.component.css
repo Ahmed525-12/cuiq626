@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  background: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+*::selection{
+  background-color: #1abc9c ;
+  color: #fff;
+}
+html::-webkit-scrollbar-thumb{
+  background-color: #1abc9c;
+  height: 25%;
+  width: 25%;
+  transition: background-color 0.5s linear;
+
+}
+
+html::-webkit-scrollbar-thumb:hover{
+  background-color: #007c63;
+  transition: background-color 0.5s linear;
+}
+
+html::-webkit-scrollbar-track{
+  background-color: #ffffff;
+}
+html::-webkit-scrollbar{
+  width: 12px;
+
+}

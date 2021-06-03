@@ -1,0 +1,30 @@
+
+<table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">name</th>
+      <th scope="col">age</th>
+      <th scope="col">last name</th>
+      <th scope="col">delet</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor=" let item of test1|filter:search index as i" >
+<td>{{i+1}}</td>
+<td>{{item.name}}</td>
+<td> {{item.age}} </td>
+<td> {{item.imgn}} </td>
+
+  <button  (click)="deleteMsg(item)"> del</button>
+
+    </tr>
+  </tbody>
+</table>
+<!-- <ul>
+  <li *ngFor="let s of test1">
+{{s.name}}
+<button  (click)="deleteMsg(s)"> del</button>
+  </li>
+</ul> -->
