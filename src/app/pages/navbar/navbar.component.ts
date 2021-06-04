@@ -30,6 +30,7 @@ export class NavbarComponent implements OnInit {
     this.router.navigate(['/login'])
     localStorage.removeItem("cart")
     localStorage.removeItem("pocart")
+    localStorage.removeItem("priceprod")
   }
   img="../assets/img/logo.png"
 

@@ -16,9 +16,9 @@
 <td><img [src]="item.imgf" width="80" class="img-fluid" alt=""></td>
 <td>{{item.name}}</td>
 <td class="font">
-  <button class="ntm action-btn btn-button text-white font" (click)="$event.stopPropagation(); updatecartitem('-',item)"><i class="fa fa-minus text-white" aria-hidden="true"></i></button>
+
  <span class="font1">{{item.itemCount}}</span>
-  <button class="ntm action-btn btn-s" (click)="$event.stopPropagation(); updatecartitem('+',item)"><i class="fa fa-plus text-white" aria-hidden="true"></i></button>
+
 
 </td>
 <td>{{item.price}}</td>

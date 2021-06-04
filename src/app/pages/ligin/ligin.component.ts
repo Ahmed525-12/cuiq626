@@ -10,7 +10,7 @@ import { AuthService } from 'src/app/parent/shared/directives/pipes/services/aut
   styleUrls: ['./ligin.component.css']
 })
 export class LiginComponent implements OnInit {
-
+  headerimg='../assets/img/header.jpg'
   LoginForm!: FormGroup;
   constructor(
 

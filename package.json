@@ -54,5 +54,17 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.1.5"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmed525-12/Cuiq-Website0.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmed525-12/Cuiq-Website0/issues"
+  },
+  "homepage": "https://github.com/Ahmed525-12/Cuiq-Website0#readme"
 }
